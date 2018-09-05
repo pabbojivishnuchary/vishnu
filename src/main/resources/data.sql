@@ -1,5 +1,0 @@
-insert into person_table (first_name,last_name,email,creaton_date) values ('vishnu','chary','vishnu@chary','28/12/1994')
-insert into person_table (first_name,last_name,email,creaton_date) values ('phani','akella','phani@akella','29/12/1995')
-insert into person_table (first_name,last_name,email,creaton_date) values ('ys','chandra','ys@chandra','2/5/2015')
-insert into person_table (first_name,last_name,email,creaton_date)values ('swamy','siva','swamy@siva','3/5/2015')
-insert into person_table(first_name,last_name,email,creaton_date) values ('akhil','soleti','akhil@soleti','4/6/2017')
