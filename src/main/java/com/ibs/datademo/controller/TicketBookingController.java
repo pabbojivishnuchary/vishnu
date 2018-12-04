@@ -27,6 +27,7 @@ public class TicketBookingController {
 	
 	@GetMapping(value = "/ticket/{ticketId}")
 	public Ticket getTicketById(@PathVariable("ticketId") Integer ticketId){
+		System.out.println("HIIII");
 		return ticketBookingService.getTicketById(ticketId);
 	}
 	
