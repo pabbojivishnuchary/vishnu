@@ -37,6 +37,9 @@ public class TicketBookingController {
 		return ticketBookingService.getAllBookedTickets();
 		
 	}
+	public void vishnu(){
+		System.out.println("Happy birthday vishnu");
+	}
 		
 	@DeleteMapping(value = "/ticket/{ticketId}")
 	public void deleteTicket(@PathVariable("ticketId") Integer ticketId){
