@@ -39,6 +39,7 @@ public class TicketBookingController {
 	}
 	public void vishnu(){
 		System.out.println("Happy birthday vishnu");
+		System.out.println("Happy birthday Phani in advance");
 	}
 		
 	@DeleteMapping(value = "/ticket/{ticketId}")
