@@ -28,13 +28,12 @@ public class TicketBookingController {
 	@GetMapping(value = "/ticket/{ticketId}")
 	public Ticket getTicketById(@PathVariable("ticketId") Integer ticketId){
 		return ticketBookingService.getTicketById(ticketId);
+
 	}
-	
-	
 	@GetMapping(value = "ticket/alltickets")
 	public Iterable<Ticket> getAllBookedTickets(){
+		System.out.println("Hello World");
 		return ticketBookingService.getAllBookedTickets();
-		
 	}
 	public void vishnu(){
 		System.out.println("Happy birthday vishnu");
